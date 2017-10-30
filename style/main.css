@@ -1,0 +1,212 @@
+.container {
+    width: 970px;
+    height: 250px;
+    overflow: hidden;
+    border: 1px solid black;
+    position: fixed;
+}
+
+.logo {
+    width: 202px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: fixed;
+
+}
+
+#brand {
+    height: 12px;
+    margin-left: 2px;
+}
+
+.myphone {
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    width: 515px;
+    height: 250px;
+}
+
+.leftSide {
+    position: fixed;
+    width: 270px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#description {
+    position: fixed;
+    top: 180px;
+    left: 20px;
+    overflow: hidden;
+    display: none;
+}
+
+#text1 {
+    width: 250px;
+    height: 70px;
+}
+
+#text2,
+#text3,
+#text4 {
+    width: 250px;
+    height: 105px;
+    position: fixed;
+    top: 160px;
+}
+
+.margin6 {
+    margin-left: 6px;
+}
+
+.margin3 {
+    margin-left: 3px;
+}
+
+.margin7 {
+    margin-left: 7px;
+}
+
+.margin9 {
+    margin-left: 9px;
+}
+
+.description img {
+    height: 25px;
+}
+
+.closeContainer {
+    position: absolute;
+    left: 897px;
+    width: 73px;
+    height: 28px;
+}
+
+.closeText {
+    position: absolute;
+    font-size: 12px;
+    text-decoration: underline;
+    top: 6px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    height: 14px;
+    width: 14px;
+    border-radius: 2px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 10px;
+}
+
+#advise {
+    position: absolute;
+    top: 30px;
+    left: 825px;
+    height: 17px;
+    width: 100px;
+    display: none;
+}
+
+#advise img {
+    height: 11px;
+}
+
+#buy {
+    position: absolute;
+    top: 190px;
+    left: 828px;
+    width: 100px;
+    display: none;
+}
+
+
+.scrollContainer {
+    height: 220px;
+    width: 30px;
+    position: absolute;
+    top: 25px;
+    left: 770px;
+
+}
+
+#player {
+    position: fixed;
+    top: 34px;
+    left: 336px;
+    z-index: 100;
+}
+
+#flash {
+    position: fixed;
+    top: -60px;
+    left: 210px;
+    opacity: 0;
+}
+
+.card {
+    position: fixed;
+    top: 161px;
+    left: 335px;
+    z-index: 1;
+}
+
+.blink {
+    position: relative;
+    left: -4px;
+    top: -55px;
+    width: 69px;
+    height: 160px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+}
+
+.blink_container {
+    width: 54px;
+    height: 41px;
+    position: fixed;
+    top: 162px;
+    left: 338px;
+    overflow: hidden;
+}
+
+#card_highlight1 {
+    position: fixed;
+    left: 0px;
+    display: none;
+}
+
+#card_highlight2 {
+    position: fixed;
+    left: 0px;
+    display: none;
+}
+
+.internals_container {
+    display: none;
+    position: fixed;
+    top: 33px;
+    left: 335px;
+    width: 364px;
+    height: 203px;
+}
+
+.closeText:hover {
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    cursor: pointer;
+}
+
+#highlight {
+    position: absolute;
+    top: 6px;
+    left: 73px;
+    z-index: 106;
+    pointer-events: none;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="style/rain.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/input_range.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/flash_and_blink.js"></script>
+    <script src="js/rain.js"></script>
+    <script src="js/show_all.js"></script>
+    <script src="js/video.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <div class="logo">
+                <img id="brand" src="images/T_SamsungLogo.png" alt="">
+                <img src="images/T_GalaxyLogo.png" alt="">
+            </div>
+            <div id="description">
+                <div id="text1">
+                    <img src="images/Text1_part1.png" alt="">
+                    <img class="margin6" src="images/Text1_part2.png" alt="">
+                </div>
+                <div id="text2">
+                    <img class="margin3" src="images/Text2_part1.png" alt="">
+                    <img class="margin7" src="images/Text2_part2.png" alt="">
+                    <img class="margin7" src="images/Text2_part3.png" alt="">
+                </div>
+                <div id="text3">
+                    <img class="margin3" src="images/Text3_part1.png" alt="">
+                    <img class="margin7" src="images/Text3_part2.png" alt="">
+                    <img class="margin7" src="images/Text3_part3.png" alt="">
+                </div>
+                <div id="text4">
+                    <img class="margin3" src="images/Text4_part1.png" alt="">
+                    <img class="margin9" src="images/Text4_part2.png" alt="">
+                    <img class="margin9" src="images/Text4_part3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="myphone" id="myphone">
+            <img id="pic" src="" alt="">
+            <div id="internals" class="internals_container">
+                <img src="images/internals_cut.png" alt="" id="pic1">
+                <div class="card">
+                    <img id="frame" src="images/internals_frame_cut.png" alt="">
+
+                </div>
+                <div class="blink_container">
+                    <div class="blink">
+                        <img id="card_highlight1" src="images/card_highlight.png" alt="">
+                        <img id="card_highlight2" src="images/card_highlight.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="player"></div>
+            <img src="images/370x205_highlights.png" alt="" id="highlight">
+            <img id="flash" src="images/flash.png" alt="">
+
+
+        </div>
+        <div id="myplayer">
+            <script src="https://www.youtube.com/iframe_api"></script>
+        </div>
+        <div id="scrollContainer" class="scrollContainer">
+            <input type="range" id="range" value="0" oninput="showPhone()" min="0" max="59">
+        </div>
+
+        <div class="closeContainer">
+            <span class="closeText">Close Ad</span>
+            <div class="closeButton">X</div>
+        </div>
+        <div id="advise" class="advise">
+            <img src="images/T_SliderText_Drag.png" alt="">
+            <img src="images/T_SliderText_explore.png" alt="">
+        </div>
+        <a href="http://google.com" target="_blank">
+        <img src="images/T_CTA.png" alt="" id="buy">
+        </a>
+    </div>
+    <script>
+        window.onload = startApp();
+        window.onload = function() {
+            close();
+            setTimeout('showAdvise()', 200);
+            setTimeout('showBuyButton()', 700);
+            $('#description').fadeIn();
+        };
+
+    </script>
+
+</body>
+
+</html>

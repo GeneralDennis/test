@@ -1,0 +1,98 @@
+@keyframes startApp {
+    0% {
+        top: 250px;
+    }
+    100% {
+        top: 15px;
+    }
+
+}
+
+@keyframes showScroll {
+    0% {
+        top: 250px;
+    }
+    100% {
+        top: 25px;
+    }
+}
+
+@keyframes showAdvise {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blinking {
+    0% {
+        left: -65px;
+    }
+    100% {
+        left: 45px;
+    }
+
+}
+
+@keyframes flashing {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 1;
+        display: inherit;
+    }
+    25% {
+        transform: scale(1) rotate(45deg);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(3) rotate(90deg);
+        opacity: .75;
+    }
+    75% {
+        transform: scale(4) rotate(235deg);
+        opacity: .5;
+    }
+    100% {
+        transform: scale(5) rotate(270deg);
+        opacity: .25;
+        display: none;
+    }
+}
+
+@keyframes changeImg {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes raindrop {
+    0% {
+        opacity: 0;
+        transform: scale(4);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(0.75);
+        top: 0px;
+    }
+}
+
+@keyframes rainflow {
+    0% {
+        opacity: 1;
+        top: 0px;
+        transform: scale(0.75);
+    }
+    100% {
+        transform: scale(0.1);
+        top: 150px;
+        opacity: 0;
+    }
