@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/input_range.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script src="js/flash_and_blink.js"></script>
-    <script src="js/rain.js"></script>
+
     <script src="js/show_all.js"></script>
+
     <script src="js/video.js"></script>
 </head>
 
@@ -59,6 +59,7 @@
                     </div>
                 </div>
             </div>
+            <div id="rain_container"></div>
             <div id="player"></div>
             <img src="images/370x205_highlights.png" alt="" id="highlight">
             <img id="flash" src="images/flash.png" alt="">
@@ -74,6 +75,7 @@
 
         <div class="closeContainer">
             <span class="closeText">Close Ad</span>
+
             <div class="closeButton">X</div>
         </div>
         <div id="advise" class="advise">
@@ -84,6 +86,7 @@
         <img src="images/T_CTA.png" alt="" id="buy">
         </a>
     </div>
+
     <script>
         window.onload = startApp();
         window.onload = function() {
@@ -94,7 +97,8 @@
         };
 
     </script>
-
+    <script src="js/rain.js"></script>
+    <script src="js/flash_and_blink.js"></script>
 </body>
 
 </html>

@@ -33,6 +33,7 @@
     width: 270px;
     height: 250px;
     overflow: hidden;
+    pointer-events: none;
 }
 
 #description {
@@ -209,4 +210,64 @@
     left: 73px;
     z-index: 106;
     pointer-events: none;
+}
+
+.rainDrop_1 {
+    width: 30px;
+    height: 28px;
+    top: 0px;
+    left: 0px;
+    background-image: url(raindrop_1.png);
+    position: absolute;
+    transform: scale(2.5);
+    transition: top 10s, transform 1.5s;
+}
+
+.rainDrop_2 {
+    width: 15px;
+    height: 23px;
+    top: 0px;
+    left: 0px;
+    background-image: url(raindrop_2.png);
+    position: absolute;
+    transform: scale(2.5);
+    transition: top 10s, transform 1.5s;
+}
+
+.rainDrop_3 {
+    width: 22px;
+    height: 19px;
+    top: 0px;
+    left: 0px;
+    background-image: url(raindrop_3.png);
+    position: absolute;
+    transform: scale(2.5);
+    transition: top 10s, transform 1.5s;
+}
+
+.rainDrop_4 {
+    width: 15px;
+    height: 24px;
+    top: 0px;
+    left: 0px;
+    background-image: url(raindrop_4.png);
+    position: absolute;
+    transform: scale(2.5);
+    transition: top 10s, transform 1.5s;
+}
+
+#rain_container {
+    position: fixed;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    top: 0px;
+    z-index: 170;
+    pointer-events: none;
+}
+
+#myplayer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }

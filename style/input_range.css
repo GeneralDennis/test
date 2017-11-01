@@ -29,4 +29,5 @@ input[type=range]:focus {
     top: 100px;
     left: -87px;
     width: 200px;
+    cursor: grab;
 }

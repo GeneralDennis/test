@@ -1,6 +1,6 @@
 function showPhone() {
-    var pic = document.getElementById("pic");
     var range = document.getElementById("range").value;
+    var pic = document.getElementById("pic");
     var images = [
                 "images/phone/phone_00000.png",
                 "images/phone/phone_00001.png",
@@ -118,7 +118,9 @@ function startApp() {
     startApp.style['animation-duration'] = '.7s';
     startApp.style['animation-timing-function'] = 'linear';
     showPhone();
-    showVideoFrame();
+    setTimeout(function () {
+        showVideoFrame();
+    }, 150);
 };
 
 function showAdvise() {
